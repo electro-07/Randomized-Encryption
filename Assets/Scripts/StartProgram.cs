@@ -9,19 +9,19 @@ class StartProgram
     public static string OutPath { get; } = $"{Directory.GetCurrentDirectory()}\\Assets\\Input Output\\Output.txt";
     public static string[] EncodeList { get; set; } =
     {
-        "-",
-        ".",
-        ",",
-        "\'",
-        "/",
-        "~",
-        ";",
-        "*",
-        "\\",
-        "|",
-        "\"",
-        "_",
-        "`"
+        "┌",
+        "┍",
+        "┎",
+        "˦",
+        "├",
+        "˨",
+        "└",
+        "┗",
+        "┕",
+        "┏",
+        "˧",
+        "┖",
+        "⎾"
     };
 
     public static void Main(string[] args)
